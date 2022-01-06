@@ -1,12 +1,12 @@
 body{
     font-family: 'PT Serif', serif;
     margin:0;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 /* -- Top Area Start --  */
 
-.top-section{
+.flexible-container{
     display: flex;
     margin-left: 35px;
 }
@@ -21,13 +21,6 @@ body{
     font-size: 60px;
     color: #333333;
 }
-.haif-width h2{
-    font-size: 60px;
-    font-weight: 700;
-    color: #FFAD5A;
-    margin-top: -45px;
-}
-
 p{
     font-size: 19px;
     font-weight: 300;
@@ -84,27 +77,27 @@ span{
     margin-left: 100px;
     margin-bottom: 100px;
 }
-.card img{
+.box img{
     width: 40%;
     margin-top: 30px;
     margin-left: 30px;
 }
-.card{
+.box{
     margin-left: 45px;
     margin-top: 30px;
    
 }
-.haif-1{
+.card-1{
     background: #EDF5F6;
     border-radius: 30px;
     height: 370px;
 }
-.haif-2{
+.card-2{
     background: #FFEEEE;
     border-radius: 30px;
     height: 370px;
 }
-.haif-3{
+.card-3{
     background: #FFF4D6;
     border-radius: 30px;
     height: 370px;
@@ -115,11 +108,13 @@ h4{
     margin-left: 30px;
 }
 .card-text{
-   font-size: 15px;
+   font-size: 16px;
    width: 80%;
    text-align: justify;
    margin-left: 30px;
    font-weight: 100;
+   font-family: 'PT Serif', serif;
+   text-transform: capitalize;
 }
 
 /* Card section end---  */
@@ -177,15 +172,19 @@ h4{
 .contact textarea{
     width: 100%;
     padding: 0.5rem;
+    box-shadow: 10px 10px 40px #c9c5c5;
+    border: 4px solid #FFAD5A;
+    border-radius: 5px;
 }
 .contact form{
     width: 100%;
 }
 .contact label{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 200;
+    color: #13103A;
 }
-.boxes{
+.contact{
     margin-right: 200px;
 }
 .from-group{
@@ -194,15 +193,14 @@ h4{
 
 .cont-image img{
     width: 450px;
-    height: 500px;
+    height: 490px;
     margin-left: 100px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .from{
     display: flex;
     width: 100%;
-    margin: 0 auto;
 }
 .contact-form h1{
     font-size: 50px;
@@ -219,7 +217,10 @@ h4{
     color:#13103A;
 }
 
-
+.text-area{
+    position: relative;
+    top: 4px;
+}
 
 /* contact Area End-- */
 
@@ -238,6 +239,9 @@ footer p{
     font-size: 12px;
     text-align: center;
     font-weight: 100;
+}
+.red-text{
+    color:#FF5959;
 }
 
 /* Footer Area End---- */
