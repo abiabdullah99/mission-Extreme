@@ -138,7 +138,7 @@ h4{
 
 .first-shape{
     background-repeat: no-repeat;
-    background-image: url(shapes/shape-1.png);
+    background-image: url(img/shapes/shape-1.png);
     background-position: left;
     background-size: 300px;
 }
@@ -159,7 +159,7 @@ h4{
 
 .second-shape{
     background-repeat: no-repeat;
-    background-image: url(shapes/shape-1.png);
+    background-image: url(img/shapes/shape-1.png);
     background-position: 1200px 420px;
     background-size: 200px;
 }
